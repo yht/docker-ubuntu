@@ -1,5 +1,4 @@
-all:
-	build push
+all: build push
 build:
 	docker build . -t ryht/ubuntu:lucid-update
 push:
